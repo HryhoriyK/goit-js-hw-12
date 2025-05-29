@@ -53,3 +53,15 @@ export function hideLoader() {
   const loaderElement = document.querySelector(".loader");
   if (loaderElement) loaderElement.style.display = "none";
 }
+
+export function showLoadMoreButton() {
+  const loadMoreBtn = document.querySelector(".load-more");
+  if (loadMoreBtn) loadMoreBtn.style.display = "block";
+}
+
+export function hideLoadMoreButton() {
+  const loadMoreBtn = document.querySelector(".load-more");
+  if (loadMoreBtn) {
+    loadMoreBtn.style.display = "none";
+  }
+}
