@@ -18,7 +18,6 @@ export async function getImagesByQuery(query, page = 1) {
         page: page,
       },
     });
-    console.log("API відповідь:", response.data);
     return response.data;
   } catch (error) {
     console.error("Помилка при отриманні зображень:", error);
